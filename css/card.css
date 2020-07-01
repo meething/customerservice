@@ -1,0 +1,97 @@
+:root {
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+      text-align: center;
+    background: #eeeeee;
+  }
+  
+  .contact-card {
+    width: 14em;
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 1em;
+    box-shadow: 0 0 2em rgba(0, 0, 0, 0.125);
+    overflow: hidden;
+    transition: 0.125s ease-in-out;
+    -webkit-transition: 0.125s ease-in-out;
+    -moz-transition: 0.125s ease-in-out;
+  }
+  .contact-card:hover {
+    transform: translateY(-0.5em);
+  }
+  .contact-card__header-image {
+    width: 100%;
+    height: 6em;
+    padding-top: 2em;
+    background-size: cover;
+    background-color: #fafafa;
+  }
+  .contact-card__avatar {
+    width: 6em;
+    height: 6em;
+    margin: auto;    
+    background-size: cover;
+    background-color: #eeeeee;
+    border-radius: 100%;
+  }
+  .contact-card__name {
+    margin-top: 3em;
+    margin-bottom: 0.5em;
+    font-size: 1.125rem;
+  }
+  .contact-card__link {
+    display: block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+  }
+  .contact-card__link a {
+    color: #424242;
+    text-decoration: none;
+  }
+  .contact-card__link:hover {
+    background-color: #fafafa;
+  }
+  .contact-card__footer {
+    margin-top: 0.5em;
+    padding: 1em 0;
+    background-color: #fafafa;
+  }
+  .green {
+      background-color: green;
+  }
+  .red {
+    background-color: red;
+  }
+  .contact-card__footer__link {
+    display: inline-block;
+    margin-right: 1em;
+    font-size: 1.125rem;
+    transition: 0.125s ease-in-out;
+    -webkit-transition: 0.125s ease-in-out;
+    -moz-transition: 0.125s ease-in-out;
+  }
+  .contact-card__footer__link a {
+    color: #424242;
+  }
+  .contact-card__footer__link--dribbble {
+    margin-right: 0;
+  }
+  .contact-card__footer__link:hover {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+  }
+  

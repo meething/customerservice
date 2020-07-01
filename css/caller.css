@@ -1,0 +1,30 @@
+
+ body {
+    text-align: center;
+    background: #eeeeee;
+}
+
+.float{
+    font-size:36px;
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#32CD32;
+    color:#FFF;
+    border-radius:50%;
+    text-align:center;
+    box-shadow: 2px 2px 3px #999;
+}
+.float.busy {
+    background-color:#CD3232;
+}
+
+.float.ringing {
+    background-color:#E0AD4D;
+}
+
+.my-float{
+	margin-top:15px;
+}
