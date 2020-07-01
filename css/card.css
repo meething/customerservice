@@ -62,7 +62,7 @@
     text-decoration: none;
   }
   .contact-card__link:hover {
-    background-color: #fafafa;
+    background-color: #AA424242;
   }
   .contact-card__footer {
     margin-top: 0.5em;
@@ -70,10 +70,10 @@
     background-color: #fafafa;
   }
   .green {
-      background-color: green;
+      background-color: #32CD32;
   }
   .red {
-    background-color: red;
+    background-color: #CD3232;
   }
   .contact-card__footer__link {
     display: inline-block;
